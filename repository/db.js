@@ -8,7 +8,7 @@ const pool = mysql.createPool({
     port: 3306,
     user: 'admin',
     password: 'casetibuy!1344',
-    database: 'casetibuy',
+    database: 'hrdb2019',
     charset: 'utf8mb4'
 });
 export const db = pool.promise();
